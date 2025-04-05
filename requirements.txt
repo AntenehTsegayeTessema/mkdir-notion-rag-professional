@@ -1,7 +1,6 @@
 fastapi
 uvicorn
 qdrant-client
-# sentence-transformers # Remove if ONLY using OpenAI
 langchain
 langchain-openai # New library for OpenAI integration
 python-dotenv
