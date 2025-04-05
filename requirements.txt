@@ -2,11 +2,10 @@ fastapi
 uvicorn
 qdrant-client
 langchain
-langchain-openai # New library for OpenAI integration
+langchain-openai
+langchain-community
 python-dotenv
 tiktoken
-unstructured # For document loading
-markdown # For Markdown loading
-# Add Notion loader if using Notion API directly
-langchain-community # Often needed for loaders/splitters etc.
-notion-client # Required by Notion loaders in LangChain
+unstructured
+markdown
+notion-client
